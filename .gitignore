@@ -1,0 +1,60 @@
+# Secrets and credentials
+.env
+.env.*
+.env*.rtf
+*.env
+!.env.example
+/credentials/
+credentials/
+*credentials*
+gen-lang-client-*.json
+*service-account*.json
+*service_account*.json
+*.pem
+*.key
+*secret*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Source dataset (large read-only data files; keep folder structure via .gitkeep)
+/Data/*
+!/Data/.gitkeep
+/data/*
+!/data/.gitkeep
+
+# Generated outputs and specialist workspaces
+/workspace/
+
+# Local conversation databases and SQLite files
+/brain/memory/
+checkpoints.db
+checkpoints.db-*
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.mplconfig/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
