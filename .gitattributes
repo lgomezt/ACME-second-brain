@@ -1,0 +1,3 @@
+# Preserve the public classroom documents byte-for-byte.
+Data/*.pdf binary
+Data/*.xlsx binary
